@@ -12,7 +12,7 @@ crons = ["*/30 * * * *"]
 
 [[kv_namespaces]]
 binding = "Neetflix_KV"
-id = ""
+id = "3cfa69b5c1c74702b824b0b33fcbfd33"
 
 # Semua variabel TIDAK di-hardcode di sini.
 # - Deploy CI  : dikirim via GitHub Actions secrets -> `wrangler deploy --var KEY:VAL` (.github/workflows/deploy.yml)
